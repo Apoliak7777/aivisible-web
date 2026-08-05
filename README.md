@@ -12,6 +12,8 @@
 ![Bez závislostí](https://img.shields.io/badge/z%C3%A1vislosti-%C5%BEiadne-16A916?style=for-the-badge)
 ![Licencia](https://img.shields.io/badge/licencia-propriet%C3%A1rna-E60012?style=for-the-badge)
 
+[![Živý web](https://img.shields.io/badge/%C5%BEiv%C3%BD%20web-apoliak7777.github.io-2ea043?style=for-the-badge)](https://apoliak7777.github.io/aivisible-web/)
+
 Prezentačný web služby, ktorá optimalizuje firmy tak, aby ich AI asistenti —
 ChatGPT, Claude, Gemini, DeepSeek a Grok — chápali a odporúčali.
 Statické HTML, CSS a JavaScript. Žiadny framework, žiadny build krok, žiadne CDN.
@@ -142,8 +144,9 @@ Potom otvor `http://localhost:5599`.
       Obchodné podmienky, Cookies. Teraz všetky smerujú na `contact.html`.
 - [ ] **Podložiť štatistiky** (92 %, 73 %, 3.4, 700M+, 62 % …) zdrojom, alebo ich
       prepísať.
-- [ ] **Doména** — prepísať `aivisible.sk` v `sitemap.xml`, `robots.txt`
-      a v `canonical`, ak bude iná.
+- [ ] **Vlastná doména** — adresy sú teraz nastavené na GitHub Pages. Pri napojení
+      vlastnej domény ich prepíš v `sitemap.xml`, `robots.txt`, v `canonical`
+      a `og:url` v `index.html`, a pridaj súbor `CNAME`.
 - [ ] **OG obrázok** — pri zdieľaní odkazu sa zatiaľ neukáže žiadny náhľad.
 
 ---

@@ -12,6 +12,8 @@
 ![No dependencies](https://img.shields.io/badge/dependencies-none-16A916?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-proprietary-E60012?style=for-the-badge)
 
+[![Live site](https://img.shields.io/badge/live-apoliak7777.github.io-2ea043?style=for-the-badge)](https://apoliak7777.github.io/aivisible-web/)
+
 Marketing site for a service that optimizes businesses so AI assistants —
 ChatGPT, Claude, Gemini, DeepSeek and Grok — understand and recommend them.
 Static HTML, CSS and JavaScript. No framework, no build step, no CDN.
@@ -144,8 +146,9 @@ Then open `http://localhost:5599`.
       Cookies. They all currently point to `contact.html`.
 - [ ] **Back the statistics** (92 %, 73 %, 3.4, 700M+, 62 % …) with sources, or
       rewrite them.
-- [ ] **Domain** — replace `aivisible.sk` in `sitemap.xml`, `robots.txt` and the
-      `canonical` tag if it differs.
+- [ ] **Custom domain** — the URLs currently point at GitHub Pages. When a custom
+      domain is attached, update them in `sitemap.xml`, `robots.txt`, and the
+      `canonical` and `og:url` tags in `index.html`, and add a `CNAME` file.
 - [ ] **OG image** — sharing a link currently shows no preview.
 
 ---

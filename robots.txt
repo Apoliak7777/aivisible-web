@@ -1,7 +1,10 @@
 # © Apoliak 2026 — Všetky práva vyhradené.
+# Pozn.: na GitHub Pages v podpriečinku roboty čítajú robots.txt z koreňa domény
+# (apoliak7777.github.io/robots.txt), takže tento súbor sa uplatní až po napojení
+# vlastnej domény.
 
 User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://aivisible.sk/sitemap.xml
+Sitemap: https://apoliak7777.github.io/aivisible-web/sitemap.xml
