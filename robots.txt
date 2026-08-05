@@ -1,0 +1,7 @@
+# © Apoliak 2026 — Všetky práva vyhradené.
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://aivisible.sk/sitemap.xml
