@@ -106,7 +106,7 @@
       btn.disabled = true;
       btn.innerHTML = 'Spúšťam test…';
       setTimeout(function () {
-        btn.innerHTML = 'Test v poradí ✓';
+        btn.innerHTML = 'Ukážka, test sa nespúšťa';
         setTimeout(function () {
           btn.disabled = false;
           btn.innerHTML = original;
@@ -127,9 +127,7 @@
       setTimeout(function () {
         if (ok) {
           ok.classList.add('is-visible');
-          ok.textContent = 'Správa prijatá. Číslo požiadavky #' +
-            Math.floor(100000 + Math.random() * 899999) +
-            ' — odpoveď posielame zvyčajne do 8 hodín.';
+          ok.textContent = 'Toto je ukážka webu z portfólia, správa sa nikam neodoslala.';
         }
         contactForm.reset();
         if (btn) { btn.disabled = false; btn.textContent = 'Odoslať správu'; }
